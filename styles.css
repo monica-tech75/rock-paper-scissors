@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(161, 234, 234);
+}
+
+header {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  text-transform: uppercase;
+  padding: 3em;
+}
+.logo-rock {
+  color:rgb(240, 6, 41)
+}
+.logo-paper {
+  color:rgb(51, 193, 8)
+}
+.logo-scissors {
+  color:rgb(78, 30, 252)
+}
+main {
+  border-bottom: 5px solid rgb(236, 87, 236);
+}
+
+.choice {
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+.result {
+  text-align: center;
+}
+
+button, img {
+  border-radius: 3em;
+}
